@@ -1,6 +1,6 @@
 # Ungroup
 
-A group file extractor written in C
+A group file extractor written in C for build engine games.
 
 ## Usage
 
@@ -8,11 +8,11 @@ A group file extractor written in C
 
 ## Information
 
-The group file format is commonly used on build engine games, such as Duke Nukem 3D, Shadow Warrior, etc. This program extracts the individual files form the group file, much like unzip does for zip files.
+The group file format is commonly used on build engine games, such as Duke Nukem 3D, Shadow Warrior, etc. This program extracts the individual files from the group file, much like unzip does for zip files.
 
 ## Compiling
 
-This program compiles out of the box with the [Borland C++ Compiler 5.5](https://edn.embarcadero.com/article/20633), but should work with most other C compilers  without too much hassle. To compile, install Borland C++ Compiler, ensure it is in your path, and run `make`.
+This program compiles out of the box with [Borland C++ Compiler 5.5](https://edn.embarcadero.com/article/20633), any should work with most other C compilers without too much hassle. To compile, install Borland C++ Compiler, ensure it is in your path, and run `make`.
 
 ## File Specifications
 
