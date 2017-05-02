@@ -1,0 +1,10 @@
+# Borland C++ Compiler Files
+*.exe
+*.obj
+*.tds
+
+# Sample Data
+*.grp
+
+# Visual Studio Code
+.vscode
