@@ -12,7 +12,7 @@ The group file format is commonly used on build engine games, such as Duke Nukem
 
 ## Compiling
 
-This program compiles out of the box with [Borland C++ Compiler 5.5](https://edn.embarcadero.com/article/20633), any should work with most other C compilers without too much hassle. To compile, install Borland C++ Compiler, ensure it is in your path, and run `make`.
+This program compiles out of the box with [Borland C++ Compiler 5.5](https://edn.embarcadero.com/article/20633), and should work with nearly every other C compiler without too much hassle. To compile, install Borland C++ Compiler, ensure it is in your path, and run `make`.
 
 ## File Specifications
 
