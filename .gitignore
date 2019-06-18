@@ -8,3 +8,10 @@
 
 # Visual Studio Code
 .vscode
+
+# Visual Studio
+.vs
+Debug
+Release
+x64
+*.user

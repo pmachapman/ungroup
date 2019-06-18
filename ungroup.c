@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
     /* Declare variables */
     FILE *in;          /* The group file to be read */
     FILE *out;         /* The file to be written */
-    char sig[12];      /* The file signature */
+    char sig[13];      /* The file signature */
     unsigned int num;  /* Number of the files in the group file */
     FileRecord *files; /* The file records in the group file */
     unsigned int i;    /* Loop variable */
@@ -42,6 +42,7 @@ int main(int argc, char *argv[])
 
     /* Make sure the file is a group file */
     fread(sig, 1, 12, in);
+    sig[12] = '\0';
     if (ferror(in))
     {
         printf("Error reading group file signature\n");
